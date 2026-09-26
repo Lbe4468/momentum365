@@ -81,7 +81,7 @@ export function ApplicationForm() {
           <textarea id="experience" name="experience" />
         </div>
         <div className="field">
-          <label htmlFor="referral">How did you hear about Momentum 365?</label>
+          <label htmlFor="referral">How did you hear about Velora Partners?</label>
           <input id="referral" name="referral" />
         </div>
         <div className="field">

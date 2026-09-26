@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
-        <section className="hero">
+     <main>
+     <section className="hero">
           <div className="container hero-grid">
             <div>
-               <div className="mobile-header-365"><span>Momentum </span><span className="header-365">365</span></div>
+              {/* <div className="header-365"><span>Velora </span><span>Partners</span></div> */}
               <div className="eyebrow-private"><span>Private Membership</span> • <span>Curated Opportunities</span></div>
               <h1 className="h1-mobile">Build today.<br /><span>Grow tomorrow.</span></h1>
               <p>
-                Momentum 365 is a private member&apos;s association designed to give members
+                Velora Partners is a private member&apos;s association designed to give members
                 access to curated financial opportunities and a more intentional path toward growth.
               </p>
               <div className="hero-actions">
@@ -22,15 +22,12 @@ export default function Home() {
                 <a className="btn btn-ghost" href="#membership">Explore Membership</a>
               </div>
             </div>
-            <div className="hero-card">
-<Image
-  className="hero-logo"
-  src="/momentum365-hero.png"
-  alt="Momentum 365 logo"
-  width={1134}
-  height={1093}
-  priority
-/>
+            <div className="hero-brand">
+              <img
+               className="hero-logo"
+               src="/velorapartners-hero.png"
+               alt="Velora Partners logo"
+              />
             </div>
           </div>
         </section>
@@ -38,7 +35,7 @@ export default function Home() {
         <section className="section" id="about">
           <div className="container">
             <div className="section-head">
-              <div className="eyebrow">Momentum 365</div>
+              <div className="eyebrow">Partnerships</div>
               <h2>A more deliberate approach to opportunity.</h2>
               <p>
                 Membership is built around access, curation, and relationships. The experience is
@@ -54,7 +51,7 @@ export default function Home() {
               <div className="eyebrow">The Membership</div>
               <h2>Access with intention.</h2>
               <p>
-                Momentum 365 brings together a private membership experience with curated opportunities,
+                Velora Partners brings together a private membership experience with curated opportunities,
                 information, and resources.
               </p>
             </div>
@@ -62,7 +59,7 @@ export default function Home() {
               <article className="card">
                 <div className="card-number">01 / CURATION</div>
                 <h3>Curated Opportunities</h3>
-                <p>Members can explore opportunities selected for consideration through the Momentum 365 network.</p>
+                <p>Members can explore opportunities selected for consideration through the Velora Partners network.</p>
               </article>
               <article className="card">
                 <div className="card-number">02 / ACCESS</div>
@@ -104,7 +101,7 @@ export default function Home() {
 
       <footer className="footer">
         <div className="container footer-inner">
-          <span>© {new Date().getFullYear()} Momentum 365. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Velora Partners. All rights reserved.</span>
           <span>Private Member&apos;s Association</span>
         </div>
       </footer>

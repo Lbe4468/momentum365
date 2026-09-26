@@ -5,7 +5,7 @@ export default function ApplyPage() {
   return (
     <main className="form-page">
       <div className="form-shell">
-        <Link href="/" className="eyebrow">← Momentum 365</Link>
+        <Link href="/" className="eyebrow">← Velora Partners</Link>
         <div className="form-card" style={{ marginTop: 22 }}>
           <div className="eyebrow">Membership Application</div>
           <h1>Request membership.</h1>

@@ -5,7 +5,7 @@ export default function LoginPage() {
   return (
     <main className="auth-wrap">
       <div className="auth-card">
-        <Link href="/"><img className="auth-logo" src="/logo.png" alt="Momentum 365" /></Link>
+        <Link href="/"><img className="auth-logo" src="/logo.png" alt="Velora Partners" /></Link>
         <h1>Member Login</h1>
         <LoginForm />
         <p style={{ textAlign: "center", color: "var(--muted)", fontSize: 13, marginTop: 24 }}>

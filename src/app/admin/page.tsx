@@ -17,7 +17,7 @@ export default async function AdminPage() {
     <main className="dashboard">
       <div className="topbar">
         <div className="container topbar-inner">
-          <img src="/logo.png" alt="Momentum 365" />
+          <img src="/logo.png" alt="Velora Partners" />
           <LogoutButton />
         </div>
       </div>

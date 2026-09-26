@@ -8,8 +8,8 @@ export function Header() {
         <Link href="/">
 <Image
   className="nav-logo"
-  src="/momentum365-nav-logo.png"
-  alt="Momentum 365"
+  src="/velorapartners-nav-logo.png"
+  alt="Velora Partners"
   width={56}
   height={56}
   priority

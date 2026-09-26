@@ -20,7 +20,7 @@ export default async function DashboardPage() {
     <main className="dashboard">
       <div className="topbar">
         <div className="container topbar-inner">
-          <Link href="/"><img src="/logo.png" alt="Momentum 365" /></Link>
+          <Link href="/"><img src="/logo.png" alt="Velora Partners" /></Link>
           <div className="topbar-actions">
             <LogoutButton />
           </div>
@@ -30,7 +30,7 @@ export default async function DashboardPage() {
         <div className="section-head">
           <div className="eyebrow">Member Portal</div>
           <h2>Welcome, {user.firstName}.</h2>
-          <p>Your Momentum 365 account and membership information will live here.</p>
+          <p>Your Velora Partners account and membership information will live here.</p>
         </div>
 
         <div className="panel">
